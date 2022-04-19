@@ -72,10 +72,7 @@ const fetchStaticProps = (staticProps: GetStaticPropsContext) =>
               document(hydrateRelationships: true)
             }
             publishedDate
-            author {
-              id
-              name
-            }
+
           }
         }
       ` as import('../../__generated__/ts-gql/PostPage').type,

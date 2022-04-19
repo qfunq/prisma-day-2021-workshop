@@ -69,10 +69,7 @@ const fetchAllPostsForIndex = makeIO (() =>
           intro {
             document(hydrateRelationships: true)
           }
-          author {
-            id
-            name
-          }
+
         }
       }
     ` as import('../__generated__/ts-gql/AllPosts').type,
