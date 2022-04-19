@@ -155,8 +155,11 @@ Status: `Preliminary`.
 
 
 
-✅ No Code Inspector linting errors, 100% score on all categories. Code inspector has a divide by zero bug that reports N/A when it can find no errors. No code inspector anymore, it has vanished from the web. There are a few lint warnings, which are barely worth fixing.
+✅ No Codiga linting errors, 100% score on all categories. Code inspector has a divide by zero bug that reports N/A when it can find no errors.
 
+<a href="https://app.codiga.io/public/user/github/qfunq">
+   <img src="https://api.codiga.io/public/badge/user/github/qfunq?style=light" alt="codiga badge" />
+</a>
 
 ## TL;DR
 `<T>(a: T)` is a type safe replacement for many cases of `(a: any)`, because we need to trap the awkward `undefined` cases at build time.
@@ -283,6 +286,10 @@ The definitive install instructions, assuming fedora, bar seeding, are in the wo
 
 
 Install it like this and you know you will get the latest CI build. ![workflow](https://github.com/qfunq/prisma-day-2021-workshop/actions/workflows/latest.yml/badge.svg)
+
+<a href="https://app.codiga.io/public/user/github/qfunq">
+   <img src="https://api.codiga.io/public/badge/user/github/qfunq?style=light" alt="codiga badge" />
+</a>
 
 
 If for some reason, the latest CI build is failing (it happens!), find the last good build. As it stands, the yml specifies a test, not a production framework.
