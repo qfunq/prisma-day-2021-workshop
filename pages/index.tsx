@@ -17,7 +17,7 @@ export default function Home({
   const auth = useAuth();
   return (
     <Container>
-      <H1>My Blog</H1>
+      <H1>FOURCUBE news</H1>
       {auth.ready && auth.sessionData ? (
         <p>
           You&apos;re signed in as {auth.sessionData.name} |{' '}

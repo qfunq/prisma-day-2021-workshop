@@ -21,11 +21,7 @@ export default function Post({
       <HomeLink />
       <article>
         <H1>{post?.title}</H1>
-        {post?.author?.name && (
-          <p>
-            By <span className="font-bold">{post.author.name}</span>
-          </p>
-        )}
+
         {post?.content?.document && (
           <DocumentRenderer document={post.content.document} />
         )}
