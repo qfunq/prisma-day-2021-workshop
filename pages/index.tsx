@@ -25,7 +25,7 @@ export default function Home({
         </p>
       ) : (
         <p>
-          <Link href="/signin">Sign In</Link> | <Link href="/signup">Join</Link>
+
         </p>
       )}
 
