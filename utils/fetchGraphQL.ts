@@ -89,10 +89,10 @@ options: {
 
   return fetchWithTimeoutIO(5000)(`http://${keystoneHost}:3000/api/graphql`, {
     method: 'POST',
-    body: JSON.parse(JSON.stringify({
+    body: JSON.stringify({
       query: print(getDocumentNode(options.operation)),
       variables: options.variables,
-    })),
+    }),
     headers: {
       'Content-Type': 'application/json',
       'x-api-key': keystoneNextjsBuildApiKey,
